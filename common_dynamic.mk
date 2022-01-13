@@ -16,7 +16,9 @@
 
 # AB Partitions
 AB_OTA_PARTITIONS += \
-    product
+    product \
+    system_ext \
+    vbmeta_system
 
 # Crypto
 PRODUCT_PROPERTY_OVERRIDES += \
